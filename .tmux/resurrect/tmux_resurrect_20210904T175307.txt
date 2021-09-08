@@ -1,0 +1,13 @@
+pane	dev	0	1	:*	0	:/Users/randall	1	ssh	:ssh 192.168.101.1
+pane	dev	1	0	:	0	:/Users/randall	1	ssh	:ssh server01
+pane	dev	2	0	:	0	:/Users/randall	1	ssh	:ssh server02
+pane	dev	3	0	:	0	:/Users/randall	1	ssh	:ssh server03
+pane	dev	4	0	:-	0	:/Users/randall	1	ssh	:ssh server04
+pane	ephemeral-4083	0	1	:*	0	:/Users/randall	1	ruby	:/usr/local/opt/ruby/bin/ruby /usr/local/Cellar/tmuxinator/3.0.1/libexec/bin/tmuxinator new allservers
+window	dev	0	:router	1	:*	b61d,78x24,0,0,0	off
+window	dev	1	:server01	0	:	b61e,78x24,0,0,1	off
+window	dev	2	:server02	0	:	b61f,78x24,0,0,2	off
+window	dev	3	:server03	0	:	b620,78x24,0,0,3	off
+window	dev	4	:server04	0	:-	b621,78x24,0,0,4	off
+window	ephemeral-4083	0	:ruby	1	:*	b264,80x24,0,0,7	:
+state	dev	

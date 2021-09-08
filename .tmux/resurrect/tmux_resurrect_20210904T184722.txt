@@ -1,0 +1,23 @@
+pane	all-servers	0	0	:	0	:/Users/randall	1	ssh	:ssh 192.168.101.1
+pane	all-servers	1	1	:*	0	:/Users/randall	1	ssh	:ssh server01
+pane	all-servers	2	0	:	0	:/Users/randall	1	ssh	:ssh server02
+pane	all-servers	3	0	:	0	:/Users/randall	1	ssh	:ssh server03
+pane	all-servers	4	0	:-	0	:/Users/randall	1	ssh	:ssh server04
+pane	all-servers-top	0	0	:	0	:/Users/randall	1	ssh	:ssh -t router top
+pane	all-servers-top	1	0	:	0	:/Users/randall	1	ssh	:ssh -t server01 top
+pane	all-servers-top	2	0	:	0	:/Users/randall	1	ssh	:ssh -t server02 top
+pane	all-servers-top	3	0	:-	0	:/Users/randall	1	ssh	:ssh -t server03 top
+pane	all-servers-top	4	1	:*	0	:/Users/randall	1	ssh	:ssh -t server04 top
+pane	dev	0	1	:*	0	:/Users/randall/Environment/home-cluster	1	bash	:
+window	all-servers	0	:router	0	:	c5c4,158x36,0,0,7	off
+window	all-servers	1	:server01	1	:*	c5c5,158x36,0,0,8	off
+window	all-servers	2	:server02	0	:	c5c6,158x36,0,0,9	off
+window	all-servers	3	:server03	0	:	630f,158x36,0,0,10	off
+window	all-servers	4	:server04	0	:-	6310,158x36,0,0,11	off
+window	all-servers-top	0	:router	0	:	5961,80x24,0,0,12	off
+window	all-servers-top	1	:server01	0	:	5962,80x24,0,0,13	off
+window	all-servers-top	2	:server02	0	:	5963,80x24,0,0,14	off
+window	all-servers-top	3	:server03	0	:-	5964,80x24,0,0,15	off
+window	all-servers-top	4	:server04	1	:*	6875,146x39,0,0,16	off
+window	dev	0	:bash	1	:*	b263,80x24,0,0,6	:
+state	all-servers-top	

@@ -1,0 +1,13 @@
+pane	allservers	0	0	:	0	:/Users/randall	1	bash	:
+pane	allservers	1	0	:	0	:/Users/randall	1	bash	:
+pane	allservers	2	0	:	0	:/Users/randall	1	bash	:
+pane	allservers	3	0	:-	0	:/Users/randall	1	bash	:
+pane	allservers	4	1	:*	0	:/Users/randall	1	bash	:
+pane	dev	0	1	:*	0	:/Users/randall/.tmux/plugins/tmux-resurrect	1	vim	:vi README.md
+window	allservers	0	:router	0	:	b25e,80x24,0,0,1	off
+window	allservers	1	:server01	0	:	b25f,80x24,0,0,2	off
+window	allservers	2	:server02	0	:	b260,80x24,0,0,3	off
+window	allservers	3	:server03	0	:-	b261,80x24,0,0,4	off
+window	allservers	4	:server04	1	:*	b262,80x24,0,0,5	off
+window	dev	0	:vim	1	:*	b25d,80x24,0,0,0	:
+state	allservers	dev

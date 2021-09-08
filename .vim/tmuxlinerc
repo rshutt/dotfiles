@@ -1,0 +1,10 @@
+"
+" tmuxline - just more cool bling
+"
+let g:tmuxline_preset = {
+      \ 'a': '#S',
+      \ 'cwin': ['#I', '#W', '#F' ],
+      \ 'win': ['#I', '#W' ],
+      \ 'y': '%R',
+      \ 'z': [ '#{prefix_highlight}', '#h' ]
+    \ }

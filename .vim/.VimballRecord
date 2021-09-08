@@ -1,0 +1,2 @@
+GrepCommands-1.02.vim.vmb: call delete('/Users/g68095/.vim/autoload/GrepCommands.vim')|call delete('/Users/g68095/.vim/plugin/GrepCommands.vim')|call delete('/Users/g68095/.vim/doc/GrepCommands.txt')
+GrepCommands-1.02.vmb: call delete('/Users/g68095/.vim/autoload/GrepCommands.vim')|call delete('/Users/g68095/.vim/plugin/GrepCommands.vim')|call delete('/Users/g68095/.vim/doc/GrepCommands.txt')
