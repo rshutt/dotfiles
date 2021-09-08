@@ -19,3 +19,69 @@
 [submodule ".tmux/plugins/vim-tmux-navigator"]
 	path = .tmux/plugins/vim-tmux-navigator
 	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule ".vim/pack/randallman/start/Jenkinsfile-vim-syntax"]
+	path = .vim/pack/randallman/start/Jenkinsfile-vim-syntax
+	url = https://github.com/martinda/Jenkinsfile-vim-syntax
+[submodule ".vim/pack/randallman/start/ale"]
+	path = .vim/pack/randallman/start/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule ".vim/pack/randallman/start/ansible-vim"]
+	path = .vim/pack/randallman/start/ansible-vim
+	url = https://github.com/pearofducks/ansible-vim
+[submodule ".vim/pack/randallman/start/bufexplorer"]
+	path = .vim/pack/randallman/start/bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer
+[submodule ".vim/pack/randallman/start/coc.nvim"]
+	path = .vim/pack/randallman/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule ".vim/pack/randallman/start/lightline-buffer"]
+	path = .vim/pack/randallman/start/lightline-buffer
+	url = https://github.com/taohexxx/lightline-buffer
+[submodule ".vim/pack/randallman/start/lightline-bufferline"]
+	path = .vim/pack/randallman/start/lightline-bufferline
+	url = https://github.com/mengelbrecht/lightline-bufferline
+[submodule ".vim/pack/randallman/start/lightline.vim"]
+	path = .vim/pack/randallman/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/pack/randallman/start/nerdtree"]
+	path = .vim/pack/randallman/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule ".vim/pack/randallman/start/syntastic"]
+	path = .vim/pack/randallman/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+[submodule ".vim/pack/randallman/start/tmuxline.vim"]
+	path = .vim/pack/randallman/start/tmuxline.vim
+	url = https://github.com/edkolev/tmuxline.vim
+[submodule ".vim/pack/randallman/start/vim-flavored-markdown"]
+	path = .vim/pack/randallman/start/vim-flavored-markdown
+	url = https://github.com/jtratner/vim-flavored-markdown
+[submodule ".vim/pack/randallman/start/vim-fugitive"]
+	path = .vim/pack/randallman/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule ".vim/pack/randallman/start/vim-gitgutter"]
+	path = .vim/pack/randallman/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule ".vim/pack/randallman/start/vim-go"]
+	path = .vim/pack/randallman/start/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule ".vim/pack/randallman/start/vim-polyglot"]
+	path = .vim/pack/randallman/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule ".vim/pack/randallman/start/vim-tmux"]
+	path = .vim/pack/randallman/start/vim-tmux
+	url = https://github.com/tmux-plugins/vim-tmux
+[submodule ".vim/pack/randallman/start/vim-tmux-navigator"]
+	path = .vim/pack/randallman/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule ".vim/pack/randallman/start/vim-unimpaired"]
+	path = .vim/pack/randallman/start/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired
+[submodule ".vim/pack/randallman/opt/onedark.vim"]
+	path = .vim/pack/randallman/opt/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule ".vim/pack/randallman/opt/promptline.vim"]
+	path = .vim/pack/randallman/opt/promptline.vim
+	url = https://github.com/edkolev/promptline.vim
+[submodule ".vim/pack/randallman/opt/vimux"]
+	path = .vim/pack/randallman/opt/vimux
+	url = https://github.com/benmills/vimux.git
