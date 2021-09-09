@@ -6,7 +6,7 @@ export SSH_AUTH_SOCK="${HOME}/.gnupg/S.gpg-agent.ssh"
 #
 export PATH="/Users/randall/.krew/bin:/Users/randall/bin:/Users/randall/go-workspace/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/MacGPG2/bin:/usr/local/opt/gnu-getopt/bin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/opt/go/libexec"
 
-export PROMPT_COMMAND="echo -ne \"\033]0;$(id -un)@trashcan - $(pwd)\007\""
+export PROMPT_COMMAND="history -a; echo -ne \"\033]0;$(id -un)@trashcan - $(pwd)\007\""
 export PS1='\[\033[01;34m\]\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[01;30m\]$(__git_ps1 " (%s)" 2>/dev/null)\[\033[01;31m\]$([[ $(id -u) == 0 ]] && echo -n "#" || echo "$")\[\033[00m\] '
 
 export GOPATH="${HOME}/go-workspace"
