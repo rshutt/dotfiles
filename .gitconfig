@@ -1,8 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-name = Randall Shutt
-email = randall@randallman.net
-	signingKey = DE19FE626219DF5C
+  name = Randall Shutt
+  email = randall@randallman.net
+  signingKey = DE19FE626219DF5C
 [commit]
 	gpgsign = true

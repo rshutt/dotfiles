@@ -66,3 +66,4 @@ tagdir() { (IFS=$'\r\n'; if [ -d "$1" ]; then cd $1; music-tagger.sh; else echo 
 
 [ -x "/usr/local/MacGPG2/bin/gpg-connect-agent" ] && gpg-connect-agent updatestartuptty /bye > /dev/null
 alias config='/usr/bin/git --git-dir=/Users/randall/.cfg/ --work-tree=/Users/randall'
+alias g++='/usr/local/bin/g++-11'
