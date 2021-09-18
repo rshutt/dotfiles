@@ -1,1 +1,4 @@
 .gnupg/reader*.status
+.cfg
+.bash_history
+.gnupg/random_seed
