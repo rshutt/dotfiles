@@ -89,10 +89,10 @@ nmap <F4> :execute 'BufGrep /'.expand('<cword>').'/gj' <Bar> cw<CR>
 nmap [1;2H :bn<CR>
 nmap [1;2F :bp<CR>
 
-source /Users/randall/.vim/lightlinerc
-source /Users/randall/.vim/tmuxlinerc
-source /Users/randall/.vim/promptlinerc
-source /Users/randall/.vim/cocnvimrc
+source $HOME/.vim/lightlinerc
+source $HOME/.vim/tmuxlinerc
+source $HOME/.vim/promptlinerc
+source $HOME/.vim/cocnvimrc
 
 nnoremap <leader>gd :Gvdiff!<CR><C-w><UP>:resize 10<CR><C-w><DOWN><C-w><RIGHT>1<CR>]c<CR>
 nnoremap gdh :diffget //2<CR>]c<CR>
