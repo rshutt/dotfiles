@@ -44,6 +44,11 @@ alias keygrip='gpg -K --with-keygrip'
 type -f kubectl >/dev/null 2>&1 && source <(kubectl completion bash)
 
 #
+# Adding sensuctl
+#
+type -f sensuctl >/dev/null 2>&1 && source <(sensuctl completion bash)
+
+#
 # This is cool stuff right here
 #
 test -e "${HOME}/.promptline.sh" && source "${HOME}/.promptline.sh"
