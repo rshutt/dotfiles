@@ -114,3 +114,5 @@ highlight colorcolumn ctermbg=53
 set rtp+=/usr/local/opt/fzf
 
 let g:fzf_history_dir="~/.local/share/fzf-history"
+
+set guifont=LiterationMonoPowerline:h17
