@@ -1,4 +1,10 @@
-.gnupg/reader*.status
-.cfg
-.bash_history
-random_seed
+.gitconfig
+.gnupg/gpg.conf
+.gnupg/pubring.kbx
+.gnupg/pubring.kbx~
+.gnupg/random_seed
+.gnupg/sshcontrol
+.gnupg/tofu.db
+.gnupg/trustdb.gpg
+.tmux/resurrect/last
+

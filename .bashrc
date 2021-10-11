@@ -1,6 +1,9 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export SSH_AUTH_SOCK="${HOME}/.gnupg/S.gpg-agent.ssh"
 
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+
 #
 # Let's just get this out of the way
 #
