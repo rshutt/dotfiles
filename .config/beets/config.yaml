@@ -1,0 +1,26 @@
+directory: /Volumes/beets/musiclibrary/
+library: /Volumes/beets/musiclibrary.db
+per_disc_numbering: yes
+paths:
+  default: $albumartist/$album%aunique{}/$disc-$track $title
+  singleton: Non-Album/$artist/$title
+  comp: Compilations/$album%aunique{}/$disc-$track $title
+  albumtype:soundtrack: Soundtracks/$album/$disc-$track $title
+plugins: duplicates missing badfiles info
+import:
+  log: /Users/randall/Nextcloud/beets-import-log
+  move: no
+  copy: yes
+  write: yes
+  incremental: yes
+  autotag: no
+  duplicate_action: keep
+  bell: yes
+  resume: yes
+  incremental_skip_later: yes
+  group_albums: yes
+embedart:
+  ifempty: no
+  auto: yes
+duplicates:
+  tiebreak: { items: [bitrate], albums: [] }

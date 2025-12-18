@@ -4,4 +4,6 @@
   email = randall@randallman.net
   signingKey = DE19FE626219DF5C
 [commit]
-	gpgsign = true
+	gpgsign = false
+[push]
+  autoSetupRemote = true

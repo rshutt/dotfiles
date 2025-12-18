@@ -2,3 +2,4 @@
 .cfg
 .bash_history
 random_seed
+.tmux/resurrect/
