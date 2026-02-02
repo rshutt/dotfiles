@@ -9,6 +9,11 @@ return {
 					package_uninstalled = "✗",
 				},
 			},
+			automatic_enable = {
+				exclude = {
+					"jdtls",
+				},
+			},
 			-- list of servers for mason to install
 			ensure_installed = {
 				"lua_ls",
@@ -16,10 +21,9 @@ return {
 				"sqlls",
 				"clangd",
 				"dockerls",
-				"docker_language_server",
+				"ruff",
 				"gopls",
 				"golangci_lint_ls",
-				"pylsp",
 				"yamlls",
 				"vimls",
 				"marksman",
@@ -33,13 +37,11 @@ return {
 				"djlsp",
 				"eslint",
 				"groovyls",
-				"java_language_server",
-				"jedi_language_server",
+				"jdtls",
 				"jinja_lsp",
 				"jqls",
 				"jsonls",
 				"oxlint",
-				"pyre",
 				"pyright",
 				"quick_lint_js",
 				"rpmspec",
@@ -80,6 +82,7 @@ return {
 				},
 			},
 			"neovim/nvim-lspconfig",
+			"mfussenegger/nvim-jdtls",
 		},
 	},
 	{

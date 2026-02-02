@@ -114,7 +114,6 @@ plugins=(
   pep8
   pylint
   pip
-  pyenv
   pre-commit
   pylint
   golang
@@ -123,6 +122,7 @@ plugins=(
   ansible
   web-search
   fzf
+  aws
   )
 
 source $ZSH/oh-my-zsh.sh

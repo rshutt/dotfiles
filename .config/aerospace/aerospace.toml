@@ -106,6 +106,7 @@ alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspaceero
+alt-a = 'workspace a'
 alt-s = 'workspace s'
 alt-t = 'workspace t'
 alt-c = 'workspace c'
@@ -115,6 +116,7 @@ alt-b = 'workspace b'
 alt-m = 'workspace m'
 alt-o = 'workspace o'
 alt-v = 'workspace v'
+alt-shift-a = ['move-node-to-workspace a','workspace a']
 alt-shift-s = ['move-node-to-workspace s','workspace s']
 alt-shift-t = ['move-node-to-workspace t','workspace t']
 alt-shift-m = ['move-node-to-workspace m','workspace m']
@@ -244,5 +246,3 @@ run = 'move-node-to-workspace t'
 # keepassxc
 if.app-id = 'org.keepassxc.keepassxc'
 run = 'move-node-to-workspace o'
-
-
