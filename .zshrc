@@ -14,10 +14,16 @@ ZVM_VI_EDITOR=nvim
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 #ZSH_TMUX_AUTOSTART="false"
-ZSH_TMUX_AUTOSTART="true"
-ZSH_TMUX_AUTOSTART_ONCE="true"
-ZSH_TMUX_DEFAULT_SESSION_NAME="dev"
+if [[ -z "${TMUX}" && -z "${SUDO_USER}" ]]; then
+  ZSH_TMUX_AUTOSTART="true"
+  ZSH_TMUX_AUTOSTART_ONCE="true"
+  ZSH_TMUX_DEFAULT_SESSION_NAME="dev"
+else
+  ZSH_TMUX_AUTOSTART="false"
+  ZSH_TMUX_AUTOSTART_ONCE="false"
+fi
 
+  
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 

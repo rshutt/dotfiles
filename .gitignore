@@ -1,7 +1,7 @@
 .gnupg/reader*.status
 .cfg
 .bash_history
-random_seed
+.gnupg/random_seed
 .tmux/resurrect/
 .gnupg/agent.log
 .gnupg/scdaemon.log
