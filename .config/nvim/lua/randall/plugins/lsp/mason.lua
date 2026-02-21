@@ -46,7 +46,7 @@ return {
 				"quick_lint_js",
 				"rpmspec",
 				"stylua",
-				"systemd_ls",
+				"systemd_lsp",
 				"terraformls",
 				"tflint",
 				"vimls",

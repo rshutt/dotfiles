@@ -6,3 +6,4 @@
 .gnupg/agent.log
 .gnupg/scdaemon.log
 .tmux/plugins
+.config/tmux/plugins/
