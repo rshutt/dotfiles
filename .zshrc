@@ -168,7 +168,7 @@ alias vi="nvim"
 #
 PATH=$(
   cat <<EOF
-/opt/homebrew/bin:/opt/homebrew/opt/grep/libexec/gnubin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/usr/local/opt/coreutils/libexec/gnubin:/Users/randall/.krew/bin:/Users/randall/bin:/Users/randall/go-workspace/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/MacGPG2/bin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:/opt/homebrew/opt/go/libexec
+/opt/homebrew/bin:/opt/homebrew/opt/grep/libexec/gnubin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/homebrew/opt/coreutils/libexec/gnubin:${HOME}/.krew/bin:${HOME}/bin:${HOME}/go-workspace/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/MacGPG2/bin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/gawk/libexec/gnubin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/sbin/:/bin:/sbin:/usr/bin:/usr/sbin:/opt/homebrew/opt/go/libexec
 EOF
 )
 
